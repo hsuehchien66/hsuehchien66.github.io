@@ -137,6 +137,24 @@
     margin-top: .5rem; 
     opacity: .85; 
     }
+
+    .media-article {
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    text-align: center;
+    }
+    .media-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 6px 18px rgba(0,0,0,.08);
+    transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .media-article a:hover img {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
+    }
     </style>
 
   
@@ -159,6 +177,22 @@
 
   
         </div>
+
+        <!-- Article card -->
+        <figure class="media-article">
+            <a href="https://reading.udn.com/read/story/7049/8818421" target="_blank" rel="noopener">
+                <img
+                src="/image/Gambia_Uninews.png"
+                alt="Describe the image for accessibility"
+                loading="lazy"
+                />
+            </a>
+            <figcaption class="caption">
+                <a href="https://reading.udn.com/read/story/7049/8818421" target="_blank" rel="noopener">
+                My Public Health Practice in the Gambia
+                </a> — Uninews, Taiwan, 2025
+            </figcaption>
+        </figure>
   	</div>	
   
   </main>
